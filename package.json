@@ -1,0 +1,28 @@
+{
+  "name": "arty",
+  "version": "0.0.0",
+  "description": "isomorphic webrtc peering",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "webrtc",
+    "isomorphic",
+    "p2p",
+    "peers",
+    "mesh",
+    "networking"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "dependencies": {
+    "wrtc": "0.0.58"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "coveralls": "^2.11.3",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  }
+}
